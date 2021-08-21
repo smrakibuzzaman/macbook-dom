@@ -57,20 +57,26 @@
 
                         <div class="col-md-8">
                             <h5>Best Price </h5>
+                            <hr>
                             <h5>Extra Memory Cost</h5>
+                            <hr>
                             <h5>Extra Storage Cost</h5>
+                            <hr>
                             <h5>Delivey Charge</h5>
-                            <br>
+                            <hr>
                             <h5>Total Price</h5>
                         </div>
 
                         <div class="col-md-4 status">
-                            <h5>$<span>1299</span></h5>
-                            <h5>$<span>0</span></h5>
-                            <h5>$<span>0</span></h5>
-                            <h5>$<span>0</span></h5>
-                            <br>
-                            <h5>$<span>1299</span></h5>
+                            <h5>$<span id="base-price">1299</span></h5>
+                            <hr>
+                            <h5>$<span id="memory-price">0</span></h5>
+                            <hr>
+                            <h5>$<span id="storage-price">0</span></h5>
+                            <hr>
+                            <h5>$<span id="delivery-price">0</span></h5>
+                            <hr>
+                            <h5>$<span id="total-price">1299</span></h5>
                         </div>
                     </div>
                 </div>
@@ -79,18 +85,21 @@
                     <h5>Add Promo Code</h5>
 
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="" aria-label=""
+                        <input id="promo-input" type="text" class="form-control" placeholder="" aria-label=""
                             aria-describedby="button-addon2">
-                        <button class="btn btn-danger" type="button" id="button-addon2">Apply</button>
+                        <button id="promo-button" class="btn btn-danger" type="button">Apply</button>
                     </div>
                 </div>
-                <br>
-                <h1>Total: $<span>1299</span></h1>
+                <hr>
+                <h1>Total: $<span id="promo-added-price">1299</span></h1>
 
             </div>
         </div>
     </section>
+
     <script src="macbook.js"></script>
 </body>
 
 </html>
+
+<!-- id="button-addon2" -->
